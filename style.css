@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background: #33038b;
+}
+h1{font-size: 40px;
+    text-align: center;
+    margin: 100px auto 50px;
+    color: white;
+}
+
+form{
+    width: 40%;
+    background: #4d17b292;
+    margin: auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+form input{
+    flex: 1;
+    height: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 18px;
+    padding: 0 30px;
+}
+::placeholder{
+    color: white;
+    font-size: 20px;
+}
+
+form button{
+    padding: 0 40px;
+    height: 100%;
+    background:rgb(241, 102, 21);
+    font-size: 20px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    color: white;
+}
+.show-btn{
+    margin: 20px auto 100px;
+    margin-bottom: 100px;
+    display: none;
+    height: 45px;
+    padding: 10px 30px;
+    background:rgb(241, 102, 21);
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.search-result{
+    width: 60%;
+    margin: 100px auto 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:40px ;
+
+}
+
+.search-result img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 5px;
+}
